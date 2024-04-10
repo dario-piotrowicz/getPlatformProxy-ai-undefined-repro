@@ -1,0 +1,16 @@
+{
+  "name": "getplatformproxy-ai-undefined-repro",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test-ok": "npm i -D wrangler@3.41.0 && npm run start",
+    "test-not-ok": "npm i -D wrangler@3.42.0 && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^3.41.0"
+  }
+}

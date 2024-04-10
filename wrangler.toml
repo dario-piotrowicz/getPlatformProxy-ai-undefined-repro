@@ -1,0 +1,4 @@
+name = "get-platform-proxy-example"
+
+[ai]
+binding = "AI"
